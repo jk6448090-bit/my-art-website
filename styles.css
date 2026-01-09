@@ -3,7 +3,7 @@ body {
     margin: auto;
     padding: 0;
     min-height: 100vh;
-    background-image: url("star.jpg.jfif");
+    background-image: url("star.jfif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -83,4 +83,5 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
 
