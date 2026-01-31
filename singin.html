@@ -38,6 +38,17 @@
             border-radius: 5px;
             border: 1px solid #ccc;
         }
+        .classes {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 20px;
+        }
+
+       .card {
+         background: #eee;
+         padding: 20px;
+         border-radius: 10px;
+        }
 
         button {
             background-color: #333;
@@ -75,11 +86,11 @@
         <label>Phone Number</label>
         <input type="tel" placeholder="Enter your phone number">
 
-        <label>Class Level</label>
+        <label class="classes">Class Level</label>
         <select>
-            <option>Beginner</option>
-            <option>Intermediate</option>
-            <option>Advanced</option>
+            <option class="card">Beginner</option>
+            <option class="card">Intermediate</option>
+            <option class="card">Advanced</option>
         </select>
 
         <label>Message</label>
@@ -97,5 +108,6 @@
 
 </body>
 </html>
+
 
 
